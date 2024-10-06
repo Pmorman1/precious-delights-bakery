@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precious Delights Bakery - About</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file for styling -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links to other pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Precious Delights Bakery</h1>
+        <p>Founded with a passion for baking, Precious Delights Bakery has been serving the community with exquisite baked goods for over a decade. Our mission is to bring joy to every occasion with delicious, freshly baked treats.</p>
+        <p>Whether you're celebrating a birthday, wedding, or just treating yourself, our bakery offers something for everyone. Stop by and taste the love in every bite!</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Precious Delights Bakery</p> <!-- Footer information -->
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to the JavaScript file for interactivity -->
+</body>
+</html>
