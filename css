@@ -1,0 +1,157 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font for the website */
+    line-height: 1.6; /* Increases line height for better readability */
+    background-color: #fff5e1; /* Light background color for a warm feel */
+    color: #333; /* Text color */
+}
+
+/* Header styling */
+header {
+    background-color: #d2691e; /* Warm brown, bakery feel */
+    color: #fff; /* White text for contrast */
+    padding: 20px 0; /* Padding for top and bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points from the list */
+    display: flex; /* Uses flexbox for horizontal alignment */
+    justify-content: center; /* Centers the navigation items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Adds margin between navigation items */
+}
+
+nav ul li a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 18px; /* Font size for links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: #f4a460; /* Changes color on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 60px 20px; /* Padding for the main content */
+    max-width: 1200px; /* Max width for the main content */
+    margin: 0 auto; /* Centers the main content */
+    text-align: center; /* Centers text */
+}
+
+h1 {
+    font-size: 36px; /* Font size for headings */
+    color: #d2691e; /* Heading color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+p {
+    font-size: 18px; /* Font size for paragraphs */
+    color: #666; /* Dark gray color for text */
+    margin-bottom: 30px; /* Space below paragraphs */
+    max-width: 800px; /* Max width for paragraphs */
+    margin-left: auto; /* Centers paragraphs */
+    margin-right: auto; /* Centers paragraphs */
+    line-height: 1.7; /* Increases line height for better readability */
+}
+
+/* Form styling */
+form {
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Stacks form elements vertically */
+    max-width: 600px; /* Max width for the form */
+    margin: 40px auto; /* Centers the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: #fff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+label {
+    font-size: 16px; /* Font size for labels */
+    color: #333; /* Dark text color for labels */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input, textarea {
+    padding: 10px; /* Padding for input fields */
+    margin-bottom: 20px; /* Space below input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    font-size: 16px; /* Font size for input fields */
+}
+
+input:focus, textarea:focus {
+    outline: none; /* Removes outline on focus */
+    border: 1px solid #d2691e; /* Dark brown border on focus */
+    background-color: #fff7e6; /* Light background on focus */
+}
+
+button {
+    padding: 15px; /* Padding for the button */
+    font-size: 18px; /* Font size for button text */
+    color: #fff; /* White text for button */
+    background-color: #d2691e; /* Brown background for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #f4a460; /* Light brown background on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Centers text in the footer */
+    padding: 20px; /* Padding for the footer */
+    background-color: #d2691e; /* Brown background for the footer */
+    color: #fff; /* White text in the footer */
+    position: relative; /* Positioning for footer */
+    width: 100%; /* Full width for the footer */
+    margin-top: 40px; /* Space above the footer */
+}
+
+footer p {
+    font-size: 14px; /* Font size for footer text */
+    color: #f4a460; /* Light brown color for footer text */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stacks navigation items vertically on small screens */
+        text-align: center; /* Centers text in navigation */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Space between navigation items */
+    }
+
+    main {
+        padding: 40px 10px; /* Adjusts padding for main content on small screens */
+    }
+
+    form {
+        padding: 15px; /* Adjusts padding for the form on small screens */
+    }
+
+    h1 {
+        font-size: 28px; /* Adjusts font size for headings on small screens */
+    }
+
+    p {
+        font-size: 16px; /* Adjusts font size for paragraphs on small screens */
+    }
+}
