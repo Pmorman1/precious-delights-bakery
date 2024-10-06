@@ -1,0 +1,14 @@
+// Select the contact form element
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    // Get values from the form fields
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    // Check if any field is empty
+    if (name === "" || email === "" || message === "") {
+        // Alert the user if fields are not filled
+        alert("All fields must be filled out.");
+        event.preventDefault(); // Prevent form submission if validation fails
+    }
+});
